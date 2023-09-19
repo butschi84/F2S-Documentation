@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'F2S Documentation',
   tagline: 'Dinosaurs are cool',
-  url: 'https://butschi84.github.io/F2S-Documentation/',
+  url: 'https://butschi84.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
