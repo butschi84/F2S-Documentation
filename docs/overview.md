@@ -42,8 +42,8 @@ These are the main feeatures of F2S
   * None
   * Token (JWT)
   * Basic Auth
-  * <font color=orange>TO DO</font> Security (OAuth)
+  * TODO Security (OAuth)
 * **Authorization**<br/>
   Authorization (RBAC)
 * **Kafka**<br/>
-  <font color=orange>TO DO</font> Kafka Message Bus Integration
+  TODO Kafka Message Bus Integration
