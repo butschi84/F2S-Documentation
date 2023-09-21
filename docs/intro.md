@@ -47,3 +47,14 @@ These are the main feeatures of F2S
   Authorization (RBAC)
 * **Kafka**<br/>
   TODO Kafka Message Bus Integration
+
+## Core Concept
+
+* Keep it as simple as can be
+* Run out of the box with as few dependencies as possible. <br/>
+  No service meshes or other dependencies
+* Simple start. Up and running in default config in 1 minute
+* Lightweight. Use the features of vanilla kubernetes where ever possible
+* Intuitive. No steep learning curve<br/>
+  Beginners can use a UI to manage the soultion (i.e. create the CRD’s using the UI)
+* No "enterprise only" features
