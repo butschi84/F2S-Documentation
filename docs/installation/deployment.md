@@ -24,6 +24,25 @@ Next step is to deploy the HELM Chart.
 helm install f2s f2s/f2s
 ```
 
+If you like to modify the values file before deployment you can use the following procedure:
+```
+# download the default values file
+helm show values f2s/f2s > values.yaml
+
+# modify the values as you like
+
+# deploy f2s
+helm install f2s f2s/f2s -f values.yaml
+
+```
+
+## Upgrade
+You can upgrade f2s to the latest release by using the command
+
+```
+helm upgrade --reuse-values f2s f2s/f2s
+```
+
 ## HELM Chart Values
 
 ### Test Functions
