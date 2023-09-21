@@ -5,14 +5,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'F2S Documentation',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Functons as a Service for Kubernetes',
   url: 'https://butschi84.github.io',
   baseUrl: '/F2S-Documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'f2s', // Usually your repo name.
 
   presets: [
     [
@@ -41,7 +41,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'F2S - Functions as a service',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -68,7 +68,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/intro',
               },
             ],
