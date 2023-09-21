@@ -28,7 +28,7 @@ kubectl apply -f https://butschi84.github.io/F2S/helm-release/crds/crds.yaml
 helm install f2s f2s/f2s
 ```
 
-# Features
+## Features
 These are the main feeatures of F2S
 
 * **Gitops**<br/>
